@@ -46,4 +46,10 @@ code {
   color: #B69AA4;
 }
 
+.buttons--container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+
+}
 
