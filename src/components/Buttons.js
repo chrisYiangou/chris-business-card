@@ -7,7 +7,7 @@ export default function Buttons() {
             Email
         </button>
         <button className="linkedin-button">
-           <div className="linkedin-square"></div> Linkedin
+           <div className="linkedin-square"><div className="linkedin--i"></div></div> Linkedin
         </button>
     </div>
   )
