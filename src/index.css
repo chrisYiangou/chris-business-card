@@ -106,10 +106,14 @@ a, a:hover, a:focus, a:active {
 }
 
 .main-content--element {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   align-content: flex-start;
   flex-wrap: wrap;
+  width: 90%;
+  gap: 0px;
+
+  
 }
 
 
