@@ -6,10 +6,18 @@ export default function Buttons() {
         <button className="email--button">
             Email
         </button>
+        
         <button className="linkedin-button">
-           <div className="linkedin-square"><div className="linkedin--i"></div></div> Linkedin
+          
+            <div className="linkedin-square">
+             <h3 className="linkedin--text">in</h3>
+            </div> 
+            <a href="https://www.linkedin.com/in/christopher-yiangou-b54bb2165/">  
+            LinkedIn
+            </a>
         </button>
-    </div>
+
+      </div>
   )
     
 }

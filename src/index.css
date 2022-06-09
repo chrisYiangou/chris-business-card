@@ -61,16 +61,49 @@ code {
 }
 
 .linkedin-button {
-  
-  background-color: #0072b1;
+  display: flex;
+  background-color: #5093E2;
   color: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+  gap: 10px 20px;
+  font-family: sans-serif,'Segoe UI', Tahoma, Geneva, Verdana;
+  font-weight: bolder;
+  flex-direction: row;
  
 }
 
 .linkedin-square {
   background-color: #FFFFFF;
-  border-radius: 1px;
-  width: 10px;
-  height: 10px;
+  border-radius: 2px;
+  /* Icon/Font Awesome Free/Brands/L/linkedin */
+  width: 20px;
+  height: 20px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
+
+.linkedin--text{
+  color: #5093E2;
+  font-size: 19px; 
+  
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+
+
+
 
