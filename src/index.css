@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: grey;
+  
     
 }
 
@@ -14,11 +15,20 @@ code {
     monospace;
 }
 
+h3 {
+  font-size: xx-large;
+}
+
+button {
+  border:none;
+}
+
+
 .container--element{
   display: flex;
   background-color: #23252C;
   color: #FFFFFF;
-  width: 60%;
+  width: 50%;
   height: fit-content;
   align-items: center;
   flex-direction: column;
@@ -122,10 +132,13 @@ a, a:hover, a:focus, a:active {
   justify-content: space-evenly;
   width: 100%;
   /* gap: px; */
-  background: red ;
+  background: #23252C;
   box-shadow: #434555;
 }
 
+.insta--logo {
+  background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+}
 
 
 
